@@ -1,0 +1,112 @@
+*{
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/*header*/
+header{
+    font-weight: 500;
+}
+
+header .titulo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    margin: 0;
+    border: 0 black solid;    
+}
+
+header .portada img{
+    width: 100%;
+}
+
+/*descripcion*/
+.descripcion{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0 15%;
+    box-sizing: border-box;
+}
+
+.descripcion .imagen img{
+    width: 100%;
+}
+
+.description.imagen{
+    padding-left: 15%;
+}
+
+.descripcion .parrafo{
+    font-weight: 300;
+}
+
+.descripcion td{
+    width: 50%;
+    padding: 5% 0px;
+}
+
+/*caracteristicas*/
+.caracteristicas{
+    background-color: #1e1a13;
+    text-align: center;
+    padding: 3rem 25%;
+}
+
+.caracteristicas h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+.caracteristica i{
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.caracteristica{
+    display: inline-block;
+    width: 30%;
+}
+
+.caracteristica p{
+    font-weight: 300;
+}
+
+/*imagenes*/
+.imagenes{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.imagenes div{
+    display: inline-block;
+    width: 25%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.imagenes img{
+    text-align: center;
+    width: 100%;
+    height: 15rem;
+}
+
+/*footer*/
+.footer{
+    background-color: #1e1a13;
+    padding: 3rem;
+    text-align: center;
+    font-weight: 300;
+}
